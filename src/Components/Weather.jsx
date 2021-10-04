@@ -99,7 +99,7 @@ const Weather = (props) => {
 
       <p>{tiempo.weather[0].description}</p>
       <p style={{ fontWeight: "500", fontSize: "3rem" }}>
-        {tiempo.main.temp}°C
+        {Math.floor(tiempo.main.temp)}°C
       </p>
       <p style={{ paddingBottom: "10px" }}>
         {day === 1 ? "Lunes" : null}
@@ -133,7 +133,7 @@ const Weather = (props) => {
           {/* percipitation */}
           <i className="fas fa-cloud-rain fa-2x"></i>
           <br />
-          {tiempo.main.pressure} %
+          {tiempo.main.pressure} 
         </p>
       </div>
     </div>
