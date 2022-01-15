@@ -1,0 +1,28 @@
+.search-container {
+    max-width: 350px;
+    background-color: #826071;
+    background-image: linear-gradient(160deg, #826071 0%, #3b3351 100%);
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    padding: 0.5rem;
+}
+
+.search-container form input {
+    outline: none;
+    background: transparent;
+    padding: 5px;
+    width: 70%;
+}
+
+.search-container form button {
+    outline: none;
+    border: none;
+    padding: 5px;
+    background-color: #e9b149;
+    transition: all 0.3s ease;
+    margin-left: 1rem;
+}
+
+.search-container form button:hover {
+    background-color: #eba421;
+}
