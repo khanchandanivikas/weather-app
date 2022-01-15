@@ -2,7 +2,7 @@ import React from "react";
 import CurrentImage from "../Components/CurrentImage";
 import CurrentInfo from "../Components/CurrentInfo";
 import Forecast from "../Components/Forecast";
-import "./Style/weather.css";
+import "./Style/Weather.css";
 
 const Weather = (props) => {
   const flipped = props.flipped;
