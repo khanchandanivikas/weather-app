@@ -1,6 +1,6 @@
 # Real Time Weather Report
 
-![Design preview for the weather app.](./src/imagenes/preview.jpg)
+![Design preview for the weather app.](./src/Components//imagenes/preview.jpg)
 
 ### Tools
 
